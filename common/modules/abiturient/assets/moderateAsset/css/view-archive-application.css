@@ -1,0 +1,59 @@
+.node-view_archive > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    word-break: break-all;
+}
+
+.node-view_archive > span {
+    display: inline-block !important;
+}
+
+.node-view_archive > .expand-icon,
+.node-view_archive > .icon.glyphicon {
+    position: absolute;
+}
+
+.panel {
+    border: 3px solid transparent;
+}
+
+.panel-danger {
+    border-color: var(--pink);
+}
+
+.panel-default {
+    border-color: var(--light);
+}
+
+.panel-success {
+    border-color: var(--teal);
+}
+
+.vertical-align {
+    margin: auto;
+}
+
+.vertical-align .btn {
+    width: 100%;
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .equal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .vertical-align .btn {
+        width: auto;
+    }
+}
+
+.word-breaker {
+    word-break: break-word;
+}

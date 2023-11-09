@@ -1,0 +1,1057 @@
+.article-item {
+    margin-bottom: 15px;
+}
+
+.article-item .article-title,
+.article-item .article-title a {
+    color: inherit;
+    margin: 0;
+}
+
+.article-item .article-meta,
+.article-item .article-meta a {
+    color: var(--gray);
+    font-size: 0.85em;
+}
+
+.article-item .article-meta a {
+    text-decoration: underline;
+}
+
+.article-item .article-thumb {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.article-item .article-text {
+    margin-top: 7px;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: var(--light);
+    border-top: 1px solid var(--light);
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: var(--red);
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after,
+a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: var(--gray);
+}
+
+.error-summary {
+    color: var(--red);
+    background: var(--light);
+    border-left: 3px solid var(--pink);
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.tab-content {
+    border-bottom: 1px solid var(--light);
+    border-left: 1px solid var(--light);
+    border-right: 1px solid var(--light);
+    border-top: 1px solid transparent;
+}
+
+.grade-table {
+    margin-bottom: 0;
+}
+
+.grade-container {
+    display: none;
+}
+
+.grade-container.active {
+    display: block;
+}
+
+nav > li > a {
+    outline: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    outline: 0;
+}
+
+.schedule-body {
+    margin-top: 15px;
+}
+
+.schedule-head label {
+    float: left;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.schedule-head .schedule-period label {
+    width: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#group-select {
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.week-container {
+    display: none;
+}
+
+.week-container.active {
+    display: block;
+}
+
+.day-outer-container {
+    display: none;
+}
+
+.day-outer-container.active {
+    display: block;
+}
+
+u {
+    border-bottom: 1px dashed var(--gray);
+    text-decoration: none;
+}
+
+u:hover {
+    border-bottom: 0;
+}
+
+.day-date-picker {
+    margin-bottom: 5px;
+    float: left;
+    width: 210px;
+}
+
+.day-date .date {
+    margin-bottom: 5px;
+    float: left;
+    width: 210px;
+}
+
+.day-date-name {
+    margin-top: 42px;
+}
+
+#datetimepicker2-kvdate,
+#datepicker2-label {
+    margin-top: -10px;
+}
+
+.table-schedule-hours {
+    width: 10%;
+}
+
+.table-schedule-discipline {
+    width: 30%;
+}
+
+.table-schedule-classroom {
+    width: 15%;
+}
+
+.table-schedule-group {
+    width: 20%;
+}
+
+.table-schedule-teacher {
+    width: 15%;
+}
+
+.schedule-type-switch {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.schedule-type-switch u {
+    border-color: var(--blue);
+}
+
+.schedule-type-switch u:hover {
+    border-color: var(--cyan);
+}
+
+.schedule-type-switch a:hover {
+    text-decoration: none;
+}
+
+.schedule-type-switch .active {
+    font-weight: bold;
+}
+
+.day-container .day-date p > a,
+.day-container .day-date p > span {
+    font-size: 14px;
+}
+
+.day-date .schedule-type-switch {
+    width: 210px;
+}
+
+.date-updater {
+    margin-top: 10px;
+    display: none;
+}
+
+.date-updater .btn-primary {
+    float: right;
+}
+
+.day-date-updater {
+    display: none;
+    float: left;
+    margin-left: 5px;
+}
+
+.day-date-updater .btn-primary {
+    float: right;
+}
+
+#user-schedule {
+    display: block;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.search-academic-plan .form-control,
+.search-academic-plan .checkbox {
+    float: right;
+    width: 60%;
+}
+
+.search-academic-plan .checkbox {
+    margin-top: 0;
+}
+
+.search-academic-plan label {
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.search-academic-plan .period-input {
+    float: left;
+    margin-left: 8px;
+    margin-right: 7px;
+    width: 10%;
+}
+
+.search-academic-plan .period-type {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25%;
+}
+
+.search-academic-plan .search-button {
+    float: right;
+}
+
+.search-academic-plan .last-period-type {
+    margin-right: 0;
+}
+
+.plan-calendar-table {
+    font-size: 12px;
+}
+
+.plan-calendar-table tr.weeks-row {
+    background-color: var(--light);
+    height: 75px;
+}
+
+.plan-calendar-table th {
+    border: 1px solid var(--gray);
+    padding: 5px 3px;
+    text-align: center;
+    background-color: var(--light);
+}
+
+.plan-calendar-table td {
+    border: 1px solid var(--gray);
+    padding: 5px 3px;
+    text-align: center;
+}
+
+.plan-calendar-table .vertical-text {
+    background-color: transparent;
+    line-height: 1em;
+    padding: 45px 0 3px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.plan-calendar-table .vertical-text span {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    display: inline-block;
+    width: 25px;
+}
+
+.plan-calendar-week-table {
+    font-size: 12px;
+}
+
+.plan-calendar-week-table tr.weeks-row {
+    background-color: var(--light);
+    height: 75px;
+}
+
+.plan-calendar-week-table th {
+    border: 1px solid var(--gray);
+    padding: 5px 5px;
+    text-align: center;
+    background-color: var(--light);
+}
+
+.plan-calendar-week-table td {
+    border: 1px solid var(--gray);
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.plan-calendar-week-table .vertical-text {
+    background-color: transparent;
+    line-height: 1em;
+    padding: 45px 0 3px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.plan-calendar-week-table .vertical-text span {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    display: inline-block;
+    width: 25px;
+}
+
+.plan-row {
+    margin-bottom: 20px;
+}
+
+.plan-calendar-week-table .total-row {
+    border-color: var(--gray);
+}
+
+.plan-calendar-week-table .total-row td {
+    font-weight: bold;
+}
+
+.plan-discipline-table {
+    font-size: 12px;
+}
+
+.plan-discipline-table tr.weeks-row {
+    background-color: var(--light);
+    height: 130px;
+}
+
+.plan-discipline-table th {
+    border: 1px solid var(--gray);
+    text-align: center;
+    background-color: var(--light);
+    font-size: 11px;
+    padding: 10px;
+}
+
+.plan-discipline-table td {
+    border: 1px solid var(--gray);
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.plan-discipline-table .vertical-text {
+    background-color: transparent;
+    line-height: 1em;
+    padding: 100px 0 3px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.plan-discipline-table .vertical-text span {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    display: inline-block;
+    width: 25px;
+}
+
+.plan-row {
+    margin-bottom: 20px;
+}
+
+.plan-discipline-table .total-row {
+    border-color: var(--gray);
+}
+
+.plan-discipline-table .total-row td {
+    font-weight: bold;
+}
+
+.plan-control-table {
+    font-size: 12px;
+}
+
+.plan-control-table tr.weeks-row {
+    background-color: var(--light);
+    height: 130px;
+}
+
+.plan-control-table th {
+    border: 1px solid var(--gray);
+    text-align: center;
+    background-color: var(--light);
+    font-size: 11px;
+    padding: 2px;
+}
+
+.plan-control-table td {
+    border: 1px solid var(--gray);
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.plan-control-table .vertical-text {
+    background-color: transparent;
+    line-height: 1em;
+    padding: 100px 0 3px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.plan-control-table .vertical-text span {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    display: inline-block;
+    width: 25px;
+}
+
+.plan-row {
+    margin-bottom: 20px;
+}
+
+.plan-control-table .total-row {
+    border-color: var(--gray);
+}
+
+.plan-control-table .total-row td {
+    font-weight: bold;
+}
+
+.portfolio-categories li {
+    cursor: pointer;
+}
+
+.sub-category {
+    padding-left: 40px;
+}
+
+.portfolio-head {
+    margin-bottom: 15px;
+}
+
+.portfolio-items-container {
+    display: none;
+}
+
+.portfolio-items-container .panel-body {
+    padding: 0;
+}
+
+.portfolio-items-container .no-items {
+    text-align: center;
+}
+
+.portfolio-items-container .table {
+    margin-bottom: 0;
+}
+
+.portfolio-items-container .table td {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.portfolio-items-container .table th {
+    text-align: left;
+    padding: 10px;
+}
+
+.portfolio-body .active-category {
+    background-color: var(--light);
+}
+
+.active-panel {
+    display: block;
+}
+
+.dialogs-container .modal-body {
+    padding: 0;
+}
+
+.dialogs-container .table {
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.dialogs-container .table td {
+    padding: 15px;
+}
+
+.intructions-list {
+    list-style: none inside;
+}
+
+.intructions-list li {
+    color: var(--dark);
+    display: block;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.instruction-header-count,
+.intructions-list li span {
+    width: 45px;
+    height: 45px;
+    background-color: var(--blue);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    color: var(--white);
+    float: left;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.intructions-list li p {
+    height: 45px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.application-button-container {
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.application-button-container p {
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.application-button-container a {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blue-button {
+    border-color: var(--blue);
+}
+
+.form-group div > .form-group {
+    margin: 0;
+    padding: 0;
+}
+
+.form-group div > .help-block {
+    margin: 0;
+}
+
+#personaldata-gender {
+    padding-top: 7px;
+}
+
+#personaldata-gender label {
+    margin-right: 10px;
+}
+
+.bachelor-header .bachelor-menu {
+    margin-top: 7px;
+}
+
+.verfied {
+    color: var(--green);
+    font-size: 20px;
+}
+
+.exam-col label {
+    font-weight: normal;
+    padding-top: 6px;
+}
+
+.exam-col label span {
+    display: block;
+    float: right;
+    margin-left: 5px;
+    border-bottom: 1px dashed;
+}
+
+.table > tbody > tr > .verified-col {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.ege-actions .btn,
+.application-buttons .btn {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.make-app {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.table.valign-middle > thead > tr > th,
+.table.valign-middle > tbody > tr > th,
+.table.valign-middle > tfoot > tr > th,
+.table.valign-middle > thead > tr > td,
+.table.valign-middle > tbody > tr > td,
+.table.valign-middle > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.table .active-row {
+    background-color: var(--light);
+    cursor: pointer;
+}
+
+.bachelor-tab {
+    border: 0;
+}
+
+.remove-year {
+    font-size: 12px;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+}
+
+.spec-search-select {
+    margin-top: 15px;
+}
+
+.spec-search-select-large {
+    float: left;
+    margin-left: 9px;
+    width: 48%;
+}
+
+.spec-search-btn {
+    height: 82px;
+    line-height: 3.333;
+    width: 100px;
+}
+
+.update-button {
+    float: right !important;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+}
+
+.table > tbody > tr > td.spec-td {
+    padding-left: 40px;
+}
+
+.table > tbody > tr.no-bottom > td {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.table > tbody > tr.no-top > td {
+    border-top: 0;
+    border-bottom: 1px solid var(--light);
+}
+
+.table > tbody > tr.with-bottom > td {
+    border-bottom: 1px solid var(--light);
+}
+
+.container {
+    background-color: var(--white);
+    min-height: max-content;
+    padding-bottom: 30px;
+}
+
+body {
+    background-color: var(--light);
+}
+
+#content-main .content {
+    overflow: hidden;
+}
+
+.hide-body {
+    display: none;
+}
+
+.spec-priority {
+    margin-top: -3px;
+    cursor: default;
+}
+
+.spec-priority:hover {
+    background-color: var(--blue);
+}
+
+.remove-speciality {
+    cursor: pointer;
+}
+
+.remove-speciality:hover {
+    text-decoration: none;
+}
+
+.update-info {
+    float: right;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.app-info {
+    margin-top: 16px;
+}
+
+.file-link {
+    display: block;
+    margin-top: 7px;
+    float: left;
+}
+
+.remove-attachment {
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: var(--red);
+}
+
+.hidden-upload {
+    display: none;
+}
+
+.abitlist-header {
+    margin-bottom: 20px;
+}
+
+.abitlist-header p {
+    margin-bottom: 5px;
+}
+
+.abitlist-header .row-title {
+    text-decoration: underline;
+}
+
+.table-spec-list tbody tr > td {
+    border-color: var(--gray);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-spec-list thead tr > th {
+    border-bottom-width: 1px;
+    border-color: var(--gray);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.small-font thead tr > th {
+    font-size: 12px;
+}
+
+.ia-modal {
+    overflow: hidden;
+}
+
+.ia-modal label {
+    margin-top: 5px;
+}
+
+#content-main .site-index {
+    overflow: visible;
+}
+
+.table > tbody > .cur-fio > td {
+    border-width: 2px;
+    border-color: var(--dark);
+    font-weight: bold;
+}
+
+.admission-agree {
+    margin-bottom: 0;
+}
+
+.exam-col {
+    width: 200px;
+}
+
+.ege-container {
+    padding-bottom: 25px;
+}
+
+.exam-place-info {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.accepted-register,
+.accepted-register span {
+    color: var(--green);
+}
+
+.declined-register,
+.declined-register span {
+    color: var(--red);
+}
+
+.exam-col label .no-exam-register {
+    border-bottom: none;
+}
+
+.exam-col > label {
+    cursor: pointer;
+}
+
+#dormitoryModal .modal-body {
+    overflow: hidden;
+}
+
+.attachments-container {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.attachments-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.update-contact-button {
+    float: right !important;
+    position: absolute;
+    right: 60px;
+    top: 3px;
+}
+
+.contact-body {
+    overflow: hidden;
+}
+
+.sandbox-dropdown {
+    width: 65%;
+    margin-right: 5px;
+}
+
+.centered-span {
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.dormitory-decline-container {
+    width: 246px;
+}
+
+.spec-search-check {
+    background-color: var(--white);
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: normal;
+    color: var(--gray);
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    -webkit-transition: border-color 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    transition: border-color 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    -o-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s,
+        -webkit-box-shadow 0.15s ease-in-out 0s;
+}
+
+.spec-search-check input {
+    margin-right: 5px;
+    float: left;
+}
+
+.spec-search-check span {
+    display: block;
+    line-height: 1em;
+    margin-top: 2px;
+    padding-left: 22px;
+}
+
+.form-checkbox {
+    margin-top: 10px !important;
+}
+
+#addressdata-homeless {
+    margin-top: 10px;
+}
+
+.alert-panel {
+    border-color: var(--red);
+}
+
+.add-spec-header {
+    display: block;
+    float: left;
+    width: 90%;
+}
+
+.hint-block {
+    color: var(--gray);
+    display: block;
+    font-size: 14px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.confirm {
+    margin: 150px auto 0;
+    width: 450px;
+}
+
+#unordered_list_for_alert-danger {
+    padding-left: 15px;
+}
+
+.file-size-validator {
+    display: none;
+}
+
+.application-comment {
+    word-break: break-word;
+}
+
+.alert {
+    word-break: break-word;
+}
+
+@media (max-width: 576px) {
+    .kv-alert-title {
+        font-size: 3vw;
+    }
+
+    .alert {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 576px) {
+    .body-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .kv-alert-title {
+        font-size: 18px;
+    }
+
+    .alert {
+        font-size: 1em;
+    }
+
+    .body-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.tooltip_with_image {
+    max-width: unset !important;
+}

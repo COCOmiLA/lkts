@@ -1,0 +1,37 @@
+div.container {
+    min-width: 100% !important;
+}
+
+.small_font {
+    font-size: 14px;
+}
+
+.width_10_percent {
+    width: 10%;
+}
+
+.width_20_percent {
+    width: 20%;
+}
+
+.word-breaker {
+    word-break: break-word;
+    white-space: initial !important;
+    min-width: 200px;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.input-daterange > .input-group-append > span.input-group-text {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.input-daterange > .input-group-append {
+    margin-right: -1px;
+}

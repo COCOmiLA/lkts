@@ -1,0 +1,22 @@
+.face_footer {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.loading-elements {
+    display: none;
+}
+
+.lef-btn-gap {
+    margin-left: 10px;
+}
+
+.loader {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: transparent;
+    content: url("../img/loader.svg");
+}

@@ -1,0 +1,26 @@
+.gapless {
+    padding-right: 0;
+    padding-left: 0;
+}
+.gapless:first-child {
+    padding-left: 15px;
+}
+.gapless:not(:first-child) input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.gapless:last-child {
+    padding-right: 15px;
+}
+.gapless:not(:last-child) input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.hide-phone-error {
+    display: none;
+}
+
+.iti {
+    display: block;
+}

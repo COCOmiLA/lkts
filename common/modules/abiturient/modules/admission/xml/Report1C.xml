@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+ <Title>Количество абитуриентов и поданных заявлений</Title>
+ <Header>
+  <DateBeg>19.06.2015</DateBeg>
+  <DateEnd>13.10.2015</DateEnd>
+  <Qualification>аспирантура</Qualification>
+  <Curs>1</Curs>
+  <Level/>
+  <Form/>
+  <Finance>бюджет</Finance>
+  <Institute/>
+  <Speciality/>
+ </Header>
+ <TableData>
+  <Row>
+   <Column1>ИБО</Column1>
+   <Column2>18.06.01</Column2>
+   <Column3>Химическая технология</Column3>
+   <Column4>1</Column4>
+   <Column5>1</Column5>
+   <Column6>1</Column6>
+   <Column7>1</Column7>
+  </Row>
+  <Row>
+   <Column1>ИНМиН</Column1>
+   <Column2>03.06.01</Column2>
+   <Column3>Физика и астрономия</Column3>
+   <Column4>11</Column4>
+   <Column5>14</Column5>
+   <Column6>14</Column6>
+   <Column7>14</Column7>
+  </Row>
+  <Row>
+   <Column1>ИНМиН</Column1>
+   <Column2>11.06.01</Column2>
+   <Column3>Электроника, радиотехника и системы связи</Column3>
+   <Column4>4</Column4>
+   <Column5>5</Column5>
+   <Column6>4</Column6>
+   <Column7>5</Column7>
+  </Row>
+  <Row>
+   <Column1>ИНМиН</Column1>
+   <Column2>18.06.01</Column2>
+   <Column3>Химическая технология</Column3>
+   <Column4>1</Column4>
+   <Column5>1</Column5>
+   <Column6>1</Column6>
+   <Column7>1</Column7>
+  </Row>
+  <Row>
+   <Column1>ИНМиН</Column1>
+   <Column2>22.06.01</Column2>
+   <Column3>Технологии материалов</Column3>
+   <Column4>15</Column4>
+   <Column5>19</Column5>
+   <Column6>15</Column6>
+   <Column7>19</Column7>
+  </Row>
+  <Row>
+   <Column1>ИТАСУ</Column1>
+   <Column2>09.06.01</Column2>
+   <Column3>Информатика и вычислительная техника</Column3>
+   <Column4>11</Column4>
+   <Column5>14</Column5>
+   <Column6>13</Column6>
+   <Column7>14</Column7>
+  </Row>
+  <Row>
+   <Column1>МГИ</Column1>
+   <Column2>05.06.01</Column2>
+   <Column3>Науки о земле</Column3>
+   <Column4>1</Column4>
+   <Column5>1</Column5>
+   <Column6>1</Column6>
+   <Column7>1</Column7>
+  </Row>
+  <Row>
+   <Column1>МГИ</Column1>
+   <Column2>15.06.01</Column2>
+   <Column3>Машиностроение</Column3>
+   <Column4>4</Column4>
+   <Column5>5</Column5>
+   <Column6>5</Column6>
+   <Column7>5</Column7>
+  </Row>
+  <Row>
+   <Column1>МГИ</Column1>
+   <Column2>20.06.01</Column2>
+   <Column3>Техносферная безопасность</Column3>
+   <Column4>1</Column4>
+   <Column5>1</Column5>
+   <Column6>1</Column6>
+   <Column7>1</Column7>
+  </Row>
+  <Row>
+   <Column1>МГИ</Column1>
+   <Column2>21.06.01</Column2>
+   <Column3>Геология, разведка и разработка полезных ископаемых</Column3>
+   <Column4>22</Column4>
+   <Column5>23</Column5>
+   <Column6>22</Column6>
+   <Column7>23</Column7>
+  </Row>
+  <Row>
+   <Column1>ЭкоТех</Column1>
+   <Column2>01.06.01</Column2>
+   <Column3>Математика и механика</Column3>
+   <Column4>1</Column4>
+   <Column5>2</Column5>
+   <Column6>2</Column6>
+   <Column7>2</Column7>
+  </Row>
+  <Row>
+   <Column1>ЭкоТех</Column1>
+   <Column2>04.06.01</Column2>
+   <Column3>Химические науки</Column3>
+   <Column4>2</Column4>
+   <Column5>2</Column5>
+   <Column6>2</Column6>
+   <Column7>2</Column7>
+  </Row>
+  <Row>
+   <Column1>ЭкоТех</Column1>
+   <Column2>15.06.01</Column2>
+   <Column3>Машиностроение</Column3>
+   <Column4>4</Column4>
+   <Column5>5</Column5>
+   <Column6>5</Column6>
+   <Column7>5</Column7>
+  </Row>
+  <Row>
+   <Column1>ЭкоТех</Column1>
+   <Column2>20.06.01</Column2>
+   <Column3>Техносферная безопасность</Column3>
+   <Column4>1</Column4>
+   <Column5>2</Column5>
+   <Column6>1</Column6>
+   <Column7>2</Column7>
+  </Row>
+  <Row>
+   <Column1>ЭкоТех</Column1>
+   <Column2>22.06.01</Column2>
+   <Column3>Технологии материалов</Column3>
+   <Column4>15</Column4>
+   <Column5>33</Column5>
+   <Column6>25</Column6>
+   <Column7>33</Column7>
+  </Row>
+  <Row>
+   <Column1>ЭУПП</Column1>
+   <Column2>38.06.01</Column2>
+   <Column3>Экономика</Column3>
+   <Column4>7</Column4>
+   <Column5>12</Column5>
+   <Column6>8</Column6>
+   <Column7>12</Column7>
+  </Row>
+  <Row>
+   <Column1/>
+   <Column2/>
+   <Column3>Итого:</Column3>
+   <Column4>101</Column4>
+   <Column5>140</Column5>
+   <Column6>120</Column6>
+   <Column7>140</Column7>
+  </Row>
+ </TableData>
+</Root>

@@ -1,0 +1,58 @@
+Options FollowSymLinks
+AddDefaultCharset utf-8
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # the main rewrite rule for the frontend application
+    RewriteCond %{REQUEST_URI} !^/(backend/web|admin|storage/web|storage|api)
+    RewriteRule !^frontend/web /frontend/web%{REQUEST_URI} [L]
+
+    # Api module
+    RewriteCond %{REQUEST_URI} ^/api
+    RewriteRule ^api(.*) /api/web/$1 [L]
+
+    # Api module
+    RewriteCond %{REQUEST_URI} ^/api/web
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /api/web/index.php [L]
+
+    # redirect to the page without a trailing slash (uncomment if necessary)
+    #RewriteCond %{REQUEST_URI} ^/admin/$
+    #RewriteRule ^(admin)/ /$1 [L,R=301]
+    # the main rewrite rule for the backend application
+    RewriteCond %{REQUEST_URI} ^/admin
+    RewriteRule ^admin(.*) /backend/web/$1 [L]
+
+    # redirect to the page without a trailing slash (uncomment if necessary)
+    #RewriteCond %{REQUEST_URI} ^/storage/$
+    #RewriteRule ^(storage)/ /$1 [L,R=301]
+    # the main rewrite rule for the storage application
+    RewriteCond %{REQUEST_URI} ^/storage
+    RewriteRule ^storage(.*)$ /storage/web/$1 [L]
+
+    # if a directory or a file of the frontend application exists, use the request directly
+    RewriteCond %{REQUEST_URI} ^/frontend/web
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # otherwise forward the request to index.php
+    RewriteRule . /frontend/web/index.php [L]
+
+    # if a directory or a file of the backend application exists, use the request directly
+    RewriteCond %{REQUEST_URI} ^/backend/web
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # otherwise forward the request to index.php
+    RewriteRule . /backend/web/index.php [L]
+	
+	# if a directory or a file of the storage application exists, use the request directly
+    RewriteCond %{REQUEST_URI} ^/storage/web
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # otherwise forward the request to index.php
+    RewriteRule ^(.*)$ /storage/web/$1 [L]
+
+    RewriteCond %{REQUEST_URI} \.(htaccess|htpasswd|svn|git|sql|dbf|conf|config|env)
+    RewriteRule \.(htaccess|htpasswd|svn|git|sql|dbf|conf|config|env) - [F]
+</IfModule>

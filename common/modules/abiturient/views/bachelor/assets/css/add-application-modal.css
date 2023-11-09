@@ -1,0 +1,24 @@
+.toggle-panel {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.speciality-container {
+    border-top: 1px solid var(--light);
+    margin-top: 10px;
+    max-height: 60vh;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.speciality-container .checkbox {
+    margin-top: 0;
+}
+
+.speciality-container .panel-heading {
+    overflow: hidden;
+}
+
+.speciality-container .checkbox {
+    margin-bottom: 0;
+}

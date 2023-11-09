@@ -1,0 +1,36 @@
+/*ACCOUNTING BENEFITS CSS*/
+.accounting-benefits-container .table-responsive {
+    margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .accounting-benefits-container .kv-grid-wrapper {
+        height: 300px;
+    }
+
+    .accounting-benefits-container .category-container {
+        margin-left: 0;
+    }
+}
+
+.accounting-benefits-container .panel-body {
+    padding: 0;
+}
+
+@media screen and (min-width: 720px) {
+    .accounting-benefits-container .kv-grid-wrapper {
+        height: auto;
+    }
+
+    .accounting-benefits-container .category-container {
+        margin-left: 24px;
+    }
+}
+
+.accounting-benefits-container .kv-grid-wrapper table {
+    border: none;
+}
+
+.accounting-benefits-container .margin-bottom {
+    margin-bottom: 20px;
+}

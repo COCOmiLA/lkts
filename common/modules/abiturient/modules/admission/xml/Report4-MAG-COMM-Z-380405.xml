@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+ <Title/>
+ <Header>
+  <Date>13.10.2015 12:41:34</Date>
+  <Qualification>Магистр</Qualification>
+  <form>Заочная</form>
+  <finans>внебюджет</finans>
+  <institute>ЭУПП</institute>
+  <Direction>38.04.05 Бизнес-информатика</Direction>
+  <Date>13.10.2015 12:41:34</Date>
+  <krim> </krim>
+  <osob> </osob>
+  <celev> </celev>
+  <contest> </contest>
+  <itog> </itog>
+  <exam1>ПВИМ Бизнес-информатика</exam1>
+ </Header>
+ <TableData>
+  <Row>
+   <Column1>1</Column1>
+   <Column2>156115</Column2>
+   <Column3>Шургучиева Амуланг Хонгровна</Column3>
+   <Column4>60</Column4>
+   <Column5>60</Column5>
+   <Column6>60</Column6>
+   <Column7>0</Column7>
+   <Column8>3</Column8>
+   <Column9/>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12/>
+  </Row>
+  <Row>
+   <Column1>2</Column1>
+   <Column2>151292</Column2>
+   <Column3>Назаренко Станислав Сергеевич</Column3>
+   <Column4>45</Column4>
+   <Column5>45</Column5>
+   <Column6>45</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9>+</Column9>
+   <Column10/>
+   <Column11/>
+   <Column12/>
+  </Row>
+  <Row>
+   <Column1>3</Column1>
+   <Column2>156050</Column2>
+   <Column3>Баишев Алтан Русланович</Column3>
+   <Column4>40</Column4>
+   <Column5>40</Column5>
+   <Column6>40</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9>+</Column9>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12/>
+  </Row>
+ </TableData>
+</Root>

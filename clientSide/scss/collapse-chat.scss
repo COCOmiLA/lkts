@@ -1,0 +1,45 @@
+@use "sass:math";
+
+@mixin collapse-header-icons($icon) {
+    $margin: 25px;
+
+    &:after {
+        content: $icon;
+        margin-left: $margin;
+    }
+    &:before {
+        content: $icon;
+        margin-right: $margin;
+    }
+}
+
+@mixin collapse-color-shifter($colorShift) {
+    &.collapse-light {
+        background-color: darken($light, $colorShift);
+    }
+    &.collapse-dark {
+        background-color: lighten($gray_dark, $colorShift);
+    }
+}
+
+.collapse-header {
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+
+    @include collapse-color-shifter(10%);
+
+    &[aria-expanded="false"] {
+        @include collapse-header-icons("+");
+    }
+    &[aria-expanded="true"] {
+        @include collapse-header-icons("-");
+    }
+}
+
+.collapse-content {
+    display: none;
+    overflow: hidden;
+
+    @include collapse-color-shifter(5%);
+}

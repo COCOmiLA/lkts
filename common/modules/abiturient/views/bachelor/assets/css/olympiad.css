@@ -1,0 +1,8 @@
+.small_verified_status {
+    padding-left: 12px;
+    color: var(--green);
+}
+
+.small_verified_status > span.fa-question-circle {
+    color: var(--dark);
+}

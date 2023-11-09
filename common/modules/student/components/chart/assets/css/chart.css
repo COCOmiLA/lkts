@@ -1,0 +1,20 @@
+#custom-legend {
+    margin-top: 2em;
+}
+
+#custom-legend ul {
+    list-style-type: none;
+}
+
+#custom-legend li {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#custom-legend span {
+    display: inline-block;
+    width: 25px;
+    height: 12px;
+    margin-right: 0.5em;
+}

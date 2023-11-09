@@ -1,0 +1,210 @@
+:root {
+    --hue: 223;
+}
+
+ul.notification-drop {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+
+.notification-drop .item {
+    z-index: 1049;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid var(--light);
+}
+.notification-drop .item:hover {
+    cursor: pointer;
+}
+.notification-drop .item i {
+    margin-left: 10px;
+}
+
+.notification-drop .notification-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1049;
+    -webkit-box-shadow: 0 0.5em 1em hsla(var(--hue), 10%, 10%, 0.1);
+    box-shadow: 0 0.5em 1em hsla(var(--hue), 10%, 10%, 0.1);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.notification-drop .item ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: var(--white);
+    left: -200px;
+    right: 0;
+    z-index: 1;
+    border-top: 1px solid var(--light);
+}
+.notification-drop .item ul li {
+    padding: 15px 0 15px 25px;
+}
+.notification-drop .item ul li:hover {
+    background: var(--light);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.notification-drop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.notification-drop .item {
+    border: none;
+}
+
+.notification-bell {
+    font-size: 20px;
+}
+
+.btn__badge {
+    background: var(--red);
+    color: var(--white);
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 3px 10px;
+    border-radius: 50%;
+}
+
+.pulse-button {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+    -webkit-animation: pulse 1.5s infinite;
+}
+
+.pulse-button:hover {
+    -webkit-animation: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    70% {
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-box-shadow: 0 0 0 50px rgba(255, 0, 0, 0);
+        box-shadow: 0 0 0 50px rgba(255, 0, 0, 0);
+    }
+    100% {
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}
+
+.notification-text {
+    font-weight: bold;
+}
+
+.notification-text span {
+    float: right;
+}
+
+/** Notification item */
+.notification__box {
+    padding-bottom: 0.75em;
+    -webkit-transition: -webkit-transform 0.15s ease-out;
+    transition: -webkit-transform 0.15s ease-out;
+    -o-transition: transform 0.15s ease-out;
+    transition: transform 0.15s ease-out;
+    transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media (max-width: 576px) {
+    .notification__box {
+        width: 255px;
+    }
+}
+@media (min-width: 576px) {
+    .notification__box {
+        width: 450px;
+    }
+}
+@media (min-width: 768px) {
+    .notification__box {
+        width: 450px;
+    }
+}
+@media (min-width: 992px) {
+    .notification__box {
+        width: 450px;
+    }
+}
+@media (min-width: 1200px) {
+    .notification__box {
+        width: 600px;
+    }
+}
+.notification__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.notification__content a.btn-link,
+.notification__content .btn-link {
+    padding: 0 !important;
+    color: var(--cyan) !important;
+    outline: none !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.notification__icon {
+    color: var(--yellow);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 0.5em;
+    width: 45px;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+.notification__text {
+    font-size: 1em;
+}
+.notification__title {
+}
+.list-group-item-new .notification__title {
+    font-weight: bold;
+}
+.notification__date {
+    color: var(--gray);
+    font-size: 0.8em;
+}
+.notification__body {
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+.notification__expand .btn-link {
+    margin-top: 10px;
+}
+
+.notification__attachments {
+    margin-top: 10px;
+}

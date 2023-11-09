@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+ <Title/>
+ <Header>
+  <Date>06.08.2015 16:43:42</Date>
+  <Qualification>Специалист/Бакалавр</Qualification>
+  <form>Заочная</form>
+  <finans>внебюджет</finans>
+  <institute>ИНМиН</institute>
+  <Direction>11.03.04 Электроника и наноэлектроника</Direction>
+  <Date>06.08.2015 16:43:42</Date>
+  <krim> </krim>
+  <osob> </osob>
+  <celev> </celev>
+  <contest> </contest>
+  <itog> </itog>
+  <exam1>Математика</exam1>
+  <exam2>Физика</exam2>
+  <exam3>Русский язык</exam3>
+ </Header>
+ <TableData>
+  <Row>
+   <Column1>1</Column1>
+   <Column2>154186</Column2>
+   <Column3>Протасов Алексей Анатольевич</Column3>
+   <Column4>166</Column4>
+   <Column5>166</Column5>
+   <Column6>50</Column6>
+   <Column7>47</Column7>
+   <Column8>69</Column8>
+   <Column9>0</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13/>
+   <Column14/>
+  </Row>
+ </TableData>
+</Root>

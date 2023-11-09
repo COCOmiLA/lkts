@@ -1,0 +1,26 @@
+parameters:
+    level: 1
+    phpVersion: 70400 # PHP 7.4
+    excludePaths:
+            analyse:
+                 - vendor
+                 - common/modules/student/components/forumIn
+            analyseAndScan:
+                    - tests
+                    - frontend/tests
+                    - backend/tests
+                    - common/tests
+                    - frontend/web/assets
+                    - backend/web/assets
+                    - common/migrations
+                    - frontend/modules/api
+    ignoreErrors:
+            - '#^Variable [\$a-zA-Z0-9\\_]+ might not be defined\.$#'
+            - '#^Variable [\$a-zA-Z0-9\\_]+ in [\(\)a-zA-Z0-9\\_]+ always exists and is not nullable\.$#'
+            - '#^Variable [\$a-zA-Z0-9\\_]+ on left side of \?\? always exists and is not nullable\.$#'
+            - '#^Variable [\$a-zA-Z0-9\\_]+ in empty\(\) always exists and is not falsy\.$#'
+            - '#^Unsafe usage of new static\(\)\.$#'
+            - '#^Call to an undefined method Throwable::[\$a-zA-Z0-9\\_]+\(\)\.$#'
+            - '#^Access to an undefined property yii\\[\$a-zA-Z0-9\\_]+\\[\$a-zA-Z0-9\\_]+::[\$a-zA-Z0-9\\_]+\.$#'
+            - '#^Call to an undefined method yii\\[\$a-zA-Z0-9\\_]+\\[\$a-zA-Z0-9\\_]+::[\$a-zA-Z0-9\\_]+\(\)\.$#'
+    reportUnmatchedIgnoredErrors: false

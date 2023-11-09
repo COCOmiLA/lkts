@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+ <Title/>
+ <Header>
+  <Date>13.10.2015 12:41:34</Date>
+  <Qualification>Магистр</Qualification>
+  <form>Очная</form>
+  <finans>внебюджет</finans>
+  <institute>ИБО</institute>
+  <Direction>45.04.02 Лингвистика </Direction>
+  <Date>13.10.2015 12:41:34</Date>
+  <krim> </krim>
+  <osob> </osob>
+  <celev> </celev>
+  <contest> </contest>
+  <itog> </itog>
+  <exam1>ПВИМ Лингвистика </exam1>
+ </Header>
+ <TableData>
+  <Row>
+   <Column1>1</Column1>
+   <Column2>152940</Column2>
+   <Column3>Ни Офори-Ки Ханс Бернард</Column3>
+   <Column4>100</Column4>
+   <Column5>100</Column5>
+   <Column6>100</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9/>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>2</Column1>
+   <Column2>151478</Column2>
+   <Column3>Аловейсий Абдель Вахаб Фатхи</Column3>
+   <Column4>95</Column4>
+   <Column5>95</Column5>
+   <Column6>95</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9>+</Column9>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>3</Column1>
+   <Column2>153386</Column2>
+   <Column3>Оганесян Нелли Мгеровна</Column3>
+   <Column4>95</Column4>
+   <Column5>95</Column5>
+   <Column6>95</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9>+</Column9>
+   <Column10/>
+   <Column11/>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>4</Column1>
+   <Column2>152162</Column2>
+   <Column3>Обуоби-Донкор Доркас</Column3>
+   <Column4>90</Column4>
+   <Column5>90</Column5>
+   <Column6>90</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9/>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>5</Column1>
+   <Column2>152875</Column2>
+   <Column3>Целютина Людмила Георгиевна</Column3>
+   <Column4>75</Column4>
+   <Column5>75</Column5>
+   <Column6>75</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9>+</Column9>
+   <Column10/>
+   <Column11/>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>6</Column1>
+   <Column2>156770</Column2>
+   <Column3>Брук Инесса Александровна</Column3>
+   <Column4>70</Column4>
+   <Column5>70</Column5>
+   <Column6>70</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9/>
+   <Column10/>
+   <Column11/>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>7</Column1>
+   <Column2>152806</Column2>
+   <Column3>Колесникова Дарья Юрьевна</Column3>
+   <Column4>70</Column4>
+   <Column5>70</Column5>
+   <Column6>70</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9>+</Column9>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12>Зачислен</Column12>
+  </Row>
+  <Row>
+   <Column1>8</Column1>
+   <Column2>154695</Column2>
+   <Column3>Молинер Винсент Марк</Column3>
+   <Column4>100</Column4>
+   <Column5>100</Column5>
+   <Column6>100</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9/>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12/>
+  </Row>
+  <Row>
+   <Column1>9</Column1>
+   <Column2>156977</Column2>
+   <Column3>Отман Абди Али</Column3>
+   <Column4>70</Column4>
+   <Column5>70</Column5>
+   <Column6>70</Column6>
+   <Column7>0</Column7>
+   <Column8>1</Column8>
+   <Column9/>
+   <Column10/>
+   <Column11>+</Column11>
+   <Column12/>
+  </Row>
+ </TableData>
+</Root>

@@ -1,0 +1,10 @@
+:root {
+    --main-bg-color-for-error-tooltip: tomato;
+}
+
+.error_tooltip + .tooltip > .tooltip-arrow {
+    border-top-color: var(--main-bg-color-for-error-tooltip);
+}
+.error_tooltip + .tooltip > .tooltip-inner {
+    background-color: var(--main-bg-color-for-error-tooltip);
+}
