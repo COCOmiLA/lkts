@@ -1,0 +1,107 @@
+:root {
+    --icon-size: 16px;
+    --icon-circle-size: 40px;
+    --vertical-line-heigth: 30px;
+}
+
+.change-history-ajax .change-icon {
+    z-index: 120000000;
+    font-size: var(--icon-size);
+}
+
+.change-icon--badge {
+    color: var(--white);
+}
+
+.change-history-ajax .change-icon--badge {
+    position: relative;
+    z-index: 110000000;
+    border-radius: 50%;
+    width: var(--icon-circle-size);
+    height: var(--icon-circle-size);
+}
+
+.change-history-ajax .change--row {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: var(--vertical-line-heigth);
+}
+
+.change-history-ajax .change--row .change--col {
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    position: relative;
+}
+
+.change-history-ajax .change--time {
+    font-style: italic;
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.change-history-ajax .no-padding {
+    padding: 0;
+}
+
+.change-history-ajax .icon--blue {
+    background: var(--blue);
+}
+
+.change-history-ajax .icon--red {
+    background: var(--red);
+}
+
+.change-history-ajax .icon--green {
+    background: var(--green);
+}
+
+.change-history-ajax .icon--info {
+    background: var(--cyan);
+}
+
+.change-history-ajax .icon--green {
+    background: var(--teal);
+}
+
+.change-history-ajax .change--col-time {
+    margin-top: calc((var(--icon-circle-size) - var(--icon-size)) / 2);
+}
+
+.change-history-ajax .vertical-line {
+    z-index: 100000000;
+    position: absolute;
+    top: var(--icon-circle-size);
+    left: calc((var(--icon-circle-size) - 1px) / 2 - 1px);
+    height: calc(100%);
+    border-left: 3px dashed var(--gray);
+}
+
+.change-history-ajax .change--content-wrapper {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 60px;
+    height: 100%;
+}
+
+.change-history-ajax .change--title {
+    width: 100%;
+    text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+    .change-history-ajax .change-collapse .file-preview,
+    .change-history-ajax .change-collapse .file-drop-zone {
+        border: none;
+    }
+}
+
+.change-history-ajax .fa {
+    text-align: center;
+}
+
+.overflow-word-wrapper {
+    word-break: break-all;
+}

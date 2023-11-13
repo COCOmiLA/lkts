@@ -1,0 +1,46 @@
+nav.portal-navbar {
+    min-height: 0;
+    padding-bottom: 0;
+}
+
+nav.portal-navbar a {
+    font-weight: bold;
+    font-size: 20px !important;
+    text-decoration: underline;
+    color: var(--dark) !important;
+}
+
+nav.portal-navbar a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    a.li-like-padding {
+        padding-top: 22px;
+    }
+}
+
+nav.navbar.portal-navbar {
+    margin-bottom: 0;
+}
+
+nav.portal-navbar .divider {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid var(--light);
+}
+
+nav.portal-navbar .collapse-border {
+    border-top: 2px var(--light) solid !important;
+}
+
+.alert-for-transfer {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.nav-bar-background-color {
+    border: none;
+    background-color: var(--light) !important;
+}

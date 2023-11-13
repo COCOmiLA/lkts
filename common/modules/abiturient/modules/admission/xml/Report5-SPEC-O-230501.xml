@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+ <Title/>
+ <Header>
+  <Direction>23.05.01 Наземные транспортно-технологические средства</Direction>
+  <Date>03.08.2015 20:23:16</Date>
+  <phase>2</phase>
+  <percent>100</percent>
+  <krim> </krim>
+  <osob> </osob>
+  <celev>2</celev>
+  <contest>17</contest>
+  <itog>19</itog>
+ </Header>
+ <TableData>
+  <Row>
+   <Column1>1</Column1>
+   <Column2>153821</Column2>
+   <Column3>Монгуш Дан-Хаяа Мергеновна</Column3>
+   <Column4>1</Column4>
+   <Column5>243</Column5>
+   <Column6>243</Column6>
+   <Column7>0</Column7>
+   <Column8>Целевой прием</Column8>
+   <Column9>Зачислен</Column9>
+  </Row>
+  <Row>
+   <Column1>2</Column1>
+   <Column2>153842</Column2>
+   <Column3>Монгуш Сылдыс Андреевич</Column3>
+   <Column4>1</Column4>
+   <Column5>228</Column5>
+   <Column6>228</Column6>
+   <Column7>0</Column7>
+   <Column8>Целевой прием</Column8>
+   <Column9>Зачислен</Column9>
+  </Row>
+  <Row>
+   <Column1>3</Column1>
+   <Column2>151744</Column2>
+   <Column3>Самарин Максим</Column3>
+   <Column4>1</Column4>
+   <Column5>270</Column5>
+   <Column6>270</Column6>
+   <Column7>0</Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9/>
+  </Row>
+  <Row>
+   <Column1>4</Column1>
+   <Column2>152741</Column2>
+   <Column3>Пестриков Олег Вадимович</Column3>
+   <Column4>1</Column4>
+   <Column5>268</Column5>
+   <Column6>268</Column6>
+   <Column7>0</Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9/>
+  </Row>
+  <Row>
+   <Column1>5</Column1>
+   <Column2>151837</Column2>
+   <Column3>Зудочкин Кирилл</Column3>
+   <Column4>1</Column4>
+   <Column5>267</Column5>
+   <Column6>267</Column6>
+   <Column7>0</Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9/>
+  </Row>
+  <Row>
+   <Column1>6</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>7</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>8</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>9</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>10</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>11</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>12</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>13</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>14</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>15</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>16</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>17</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>18</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+  <Row>
+   <Column1>19</Column1>
+   <Column2/>
+   <Column3/>
+   <Column4> </Column4>
+   <Column5> </Column5>
+   <Column6> </Column6>
+   <Column7> </Column7>
+   <Column8>Общий конкурс</Column8>
+   <Column9>Вакантное место</Column9>
+  </Row>
+ </TableData>
+</Root>

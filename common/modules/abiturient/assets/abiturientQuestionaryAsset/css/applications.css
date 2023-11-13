@@ -1,0 +1,27 @@
+.width-20-percent {
+    width: 20%;
+}
+
+.word-breaker {
+    word-break: break-word;
+    white-space: initial !important;
+    min-width: 200px;
+}
+
+.width-15-percent {
+    width: 15%;
+}
+
+.btn-applications {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.btn-make-modal {
+    margin-bottom: 15px;
+}
+
+.clear-both {
+    clear: both;
+}

@@ -1,0 +1,303 @@
+@use "sass:math";
+
+@mixin scrollbars(
+    $size,
+    $foreground-color,
+    $background-color: mix($foreground-color, white, 50%),
+    $string: "body"
+) {
+    $element: unquote($string);
+
+    #{$element}::-webkit-scrollbar {
+        width: $size;
+        height: $size;
+    }
+
+    #{$element}::-webkit-scrollbar-thumb {
+        background: $foreground-color;
+    }
+
+    #{$element}::-webkit-scrollbar-track {
+        background: $background-color;
+    }
+
+    #{$element} {
+        scrollbar-face-color: $foreground-color;
+        scrollbar-track-color: $background-color;
+        scrollbar-width: thin;
+        scrollbar-color: $foreground-color $background-color;
+    }
+}
+
+// Colors
+$red: var(--red);
+$blue: #007bff; // var(--blue)
+$gray: #6c757d; // var(--gray)
+$light: #f8f9fa; // var(--light)
+$error-color: #dc3545; // var(--danger)
+$gray_dark: #343a40; // var(--gray-dark)
+$success-color: #28a745; // var(--success)
+$scroll-bar-color-delta-in-percent: 10%;
+// #####
+
+// Heights
+$people-list-height: 600px;
+// #####
+
+// Widths
+
+$people-list-width: 260px;
+// #####
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.chat-container {
+    max-height: 800px;
+
+    .navigation-card {
+        width: 220px;
+
+        .people-list {
+            height: $people-list-height;
+
+            ul {
+                height: 100%;
+                overflow-y: auto;
+            }
+        }
+    }
+
+    .chat {
+        height: 100%;
+
+        .chat-header {
+            width: 100%;
+
+            .chat-with {
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .chat-num-messages {
+                color: darken($light, 25%);
+            }
+        }
+
+        .chat-history {
+            width: 100%;
+            overflow-y: auto;
+
+            ul {
+                height: 100%;
+                max-height: 555px;
+
+                .message-data-time {
+                    color: lighten($gray, 8%);
+                }
+
+                $babel_tails: 16px;
+                .message {
+                    color: $light;
+                    line-height: 26px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    width: fit-content;
+                    position: relative;
+
+                    &:after {
+                        bottom: 100%;
+                        left: $babel_tails;
+                        border: solid transparent;
+                        content: " ";
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        pointer-events: none;
+                        border-bottom-color: var(--teal);
+                        border-width: 10px;
+                        margin-left: -10px;
+                    }
+
+                    a,
+                    span {
+                        margin-left: 5px;
+                        color: $light !important;
+                    }
+                }
+
+                .incoming-message {
+                    background: var(--teal);
+                }
+
+                .outgoing-message {
+                    background: var(--cyan);
+
+                    &:after {
+                        border-bottom-color: var(--cyan);
+                        left: calc(100% - $babel_tails);
+                    }
+                }
+            }
+        }
+
+        .chat-message {
+            width: 100%;
+
+            textarea {
+                display: none;
+            }
+
+            .fa-file-o {
+                font-size: 16px;
+                color: $gray_dark;
+                cursor: pointer;
+            }
+
+            button {
+                display: none;
+                float: right;
+                color: $blue;
+                font-size: 16px;
+                text-transform: uppercase;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                background: $light;
+
+                &:hover {
+                    color: darken($blue, 7%);
+                }
+            }
+        }
+    }
+}
+
+@include scrollbars(
+    10px,
+    lighten($gray_dark, $scroll-bar-color-delta-in-percent),
+    $gray_dark,
+    "ul.list"
+);
+
+.empty-chat-history {
+    height: 100%;
+    font-size: 28px;
+    color: darken($light, 35%);
+}
+
+.instead-avatar {
+    aspect-ratio: 1/1;
+    background: $red;
+    border-radius: 100%;
+    height: 4em;
+    min-height: 4em;
+    width: 4em;
+    min-width: 4em;
+}
+@include scrollbars(
+    10px,
+    darken($light, $scroll-bar-color-delta-in-percent),
+    $light,
+    "div.chat-history"
+);
+
+@mixin bg-strike($color) {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+
+    > span {
+        position: relative;
+        display: inline-block;
+
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 9999px;
+            height: 1px;
+            background: $color;
+        }
+
+        &:before {
+            right: 100%;
+            margin-right: 15px;
+        }
+
+        &:after {
+            left: 100%;
+            margin-left: 15px;
+        }
+    }
+}
+
+.chat_horizontal_line_with_text {
+    $color: lighten($gray_dark, 30%);
+
+    @include bg-strike($color);
+    color: $color;
+}
+
+.loading {
+    $spinner-size: 200px;
+
+    width: $spinner-size;
+
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    background-color: transparent;
+    content: url("../img/loader.svg");
+    padding-top: 0;
+
+    &-search {
+        @extend .loading;
+
+        height: 100% !important;
+    }
+}
+
+.message-status {
+    $spinner-size: 25px;
+
+    width: $spinner-size;
+
+    &.sending {
+        background-color: transparent;
+        content: url(../img/loader.svg);
+        position: relative;
+    }
+
+    &.success {
+        background-color: transparent;
+        color: $success-color;
+    }
+
+    &.error {
+        background-color: transparent;
+        color: $error-color;
+    }
+}
+
+.content,
+.container,
+.body-content {
+    min-height: 0;
+    padding: 0;
+    background-color: #0000;
+}
+#content-main {
+    min-height: 0;
+}
+
+@import "collapse-chat.scss";

@@ -1,0 +1,8 @@
+suite_namespace: common\tests\unit
+actor: UnitTester
+bootstrap: false
+error_level: E_ALL
+modules:
+  enabled:
+    - Yii2:
+        part: [ orm, email, fixtures, validators, i18n, urlManager ]

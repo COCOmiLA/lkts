@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+ <Title/>
+ <Header>
+  <Date>18.04.2016 16:43:42</Date>
+  <Qualification>Специалист/Бакалавр</Qualification>
+  <form>Очная</form>
+  <finans>бюджет</finans>
+  <institute>ИБО</institute>
+  <Direction>02.03.01 БиологияТест </Direction>
+  <SpecialityCode>4</SpecialityCode>
+  <Date>18.04.2016 16:43:42</Date>
+  <krim> </krim>
+  <osob>1</osob>
+  <celev> </celev>
+  <contest>24</contest>
+  <itog>25</itog>
+  <exam1>Математика</exam1>
+  <exam1code>2</exam1code>
+  <exam2>Биология</exam2>
+  <exam2code>4</exam2code>
+  <exam3>Русский язык</exam3>
+  <exam3code>1</exam3code>
+ </Header>
+ <TableData>
+  <Row>
+   <Column1>1</Column1>
+   <Column2>156552</Column2>
+   <Column3>Шапцова Дарья Александровна</Column3>
+   <Column4>209</Column4>
+   <Column5>209</Column5>
+   <Column6>62</Column6>
+   <Column7>65</Column7>
+   <Column8>82</Column8>
+   <Column9>0</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12>ОП; </Column12>
+   <Column13>+</Column13>
+   <Column14>Зачислен</Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>2</Column1>
+   <Column2>155302</Column2>
+   <Column3>Ломакин Борис Евгеньевич</Column3>
+   <Column4>302</Column4>
+   <Column5>292</Column5>
+   <Column6>96</Column6>
+   <Column7>98</Column7>
+   <Column8>98</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>3</Column1>
+   <Column2>151863</Column2>
+   <Column3>Иванов Иван Иванович</Column3>
+   <Column4>285</Column4>
+   <Column5>275</Column5>
+   <Column6>84</Column6>
+   <Column7>93</Column7>
+   <Column8>98</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>4</Column1>
+   <Column2>152403</Column2>
+   <Column3>Лопатина Виолетта Вадимовна</Column3>
+   <Column4>281</Column4>
+   <Column5>271</Column5>
+   <Column6>85</Column6>
+   <Column7>86</Column7>
+   <Column8>100</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>5</Column1>
+   <Column2>155062</Column2>
+   <Column3>Капустина Мария Николаевна</Column3>
+   <Column4>278</Column4>
+   <Column5>268</Column5>
+   <Column6>97</Column6>
+   <Column7>79</Column7>
+   <Column8>92</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>6</Column1>
+   <Column2>154169</Column2>
+   <Column3>Калинкина Анна Николаевна</Column3>
+   <Column4>275</Column4>
+   <Column5>265</Column5>
+   <Column6>94</Column6>
+   <Column7>71</Column7>
+   <Column8>100</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>7</Column1>
+   <Column2>154299</Column2>
+   <Column3>Строганова Анна Артёмовна</Column3>
+   <Column4>275</Column4>
+   <Column5>265</Column5>
+   <Column6>91</Column6>
+   <Column7>79</Column7>
+   <Column8>95</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>8</Column1>
+   <Column2>154870</Column2>
+   <Column3>Трусина Надежда Андреевна</Column3>
+   <Column4>273</Column4>
+   <Column5>263</Column5>
+   <Column6>79</Column6>
+   <Column7>86</Column7>
+   <Column8>98</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>9</Column1>
+   <Column2>151302</Column2>
+   <Column3>Будехина Мария Вячеславовна</Column3>
+   <Column4>272</Column4>
+   <Column5>262</Column5>
+   <Column6>85</Column6>
+   <Column7>77</Column7>
+   <Column8>100</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>10</Column1>
+   <Column2>156453</Column2>
+   <Column3>Коваленко Елена Владимировна</Column3>
+   <Column4>271</Column4>
+   <Column5>261</Column5>
+   <Column6>94</Column6>
+   <Column7>75</Column7>
+   <Column8>92</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>11</Column1>
+   <Column2>154479</Column2>
+   <Column3>Малиновская Алина Сергеевна</Column3>
+   <Column4>270</Column4>
+   <Column5>270</Column5>
+   <Column6>96</Column6>
+   <Column7>79</Column7>
+   <Column8>95</Column8>
+   <Column9>0</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+  <Row>
+   <Column1>12</Column1>
+   <Column2>153577</Column2>
+   <Column3>Радионова Дарья Сергеевна</Column3>
+   <Column4>270</Column4>
+   <Column5>260</Column5>
+   <Column6>94</Column6>
+   <Column7>71</Column7>
+   <Column8>95</Column8>
+   <Column9>10</Column9>
+   <Column10>1</Column10>
+   <Column11>+</Column11>
+   <Column12/>
+   <Column13>+</Column13>
+   <Column14></Column14>
+   <AbiturientCode>0</AbiturientCode>
+  </Row>
+
+ </TableData>
+</Root>

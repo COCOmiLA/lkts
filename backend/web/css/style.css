@@ -1,0 +1,79 @@
+body > .header .navbar .nav > li > a > .badge {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    font-size: 75%;
+}
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .glyphicon,
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .fa,
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .ion {
+    background: none;
+    color: inherit;
+}
+body .user-panel > .info {
+    padding-left: 10px;
+}
+body .table {
+    word-break: break-all;
+}
+
+.sandbox-settings #sandboxsetting-value {
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.text-table .field-textsetting-id,
+.text-table .field-textsetting-id .help-block {
+    margin: 0;
+}
+.text-table > tbody > tr > td {
+    padding: 5px;
+    vertical-align: middle;
+}
+.text-table .field-textsetting-value {
+    margin-bottom: 0;
+}
+.text-table .form-group {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+body .text-table {
+    word-break: normal;
+}
+.user-panel {
+    overflow: hidden;
+    height: 65px;
+}
+.user-panel > .info {
+    left: 0;
+}
+.span-hint {
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.summary .table > thead > tr > th {
+    text-align: right;
+}
+
+ul.sidebar-menu > li.treeview > a > span {
+    display: initial;
+    max-width: 75%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+ul.sidebar-menu > li.treeview > ul > li a > span {
+    display: initial;
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+div#lastErrorMessage {
+    margin: 0 !important;
+}
+
+.sortable {
+    min-height: 40px;
+}

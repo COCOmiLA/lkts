@@ -1,0 +1,43 @@
+# Env
+/.env
+/.htaccess
+#/vhost.conf
+/Nginx-1.6_vhost.conf
+
+# composer
+/vendor
+/vendor — копия
+composer.phar
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+#/vagrant.yaml
+
+/confs/dictionary_fias.sql
+/confs/dictionary_fias_doma.sql
+
+/backend/web/conf
+
+/.vscode
+web.config
+
+node_modules
+/package*
+/babel*

@@ -1,0 +1,15 @@
+a.template-img-view:hover {
+    border-width: thick;
+    border-color: var(--gray-dark);
+    border-style: solid;
+}
+
+a span {
+    position: absolute;
+    background-color: var(--gray-dark);
+    visibility: hidden;
+}
+
+a.template-img-view:hover span {
+    visibility: visible;
+}

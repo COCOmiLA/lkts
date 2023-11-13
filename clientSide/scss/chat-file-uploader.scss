@@ -1,0 +1,23 @@
+.chat-file-uploader {
+    display: none;
+
+    input[type="file"] {
+        opacity: 0;
+        z-index: -1;
+        position: absolute;
+    }
+
+    input:focus + label {
+        outline: 2px solid;
+    }
+
+    .remove-btn,
+    .upload-file-name {
+        display: none;
+    }
+
+    p {
+        color: tomato;
+        display: none;
+    }
+}

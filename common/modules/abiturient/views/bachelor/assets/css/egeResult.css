@@ -1,0 +1,16 @@
+.verified_status {
+    font-size: 25px;
+    color: var(--green);
+    margin-top: 20px;
+}
+@media (max-width: 992px) {
+    .verified_status {
+        font-size: 25px;
+        color: var(--green);
+        margin-top: 0;
+    }
+}
+
+.text-aligner{
+    text-align: center;
+}

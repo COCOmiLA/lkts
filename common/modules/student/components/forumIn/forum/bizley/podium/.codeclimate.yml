@@ -1,0 +1,23 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  phpmd:
+    enabled: true
+    config:
+      rulesets: "codesize,design,unusedcode,phpmd_ruleset.xml"
+ratings:
+  paths:
+  - "**.js"
+  - "**.php"
+exclude_paths:
+- src/messages/
+- src/maintenance/steps/
+- tests/

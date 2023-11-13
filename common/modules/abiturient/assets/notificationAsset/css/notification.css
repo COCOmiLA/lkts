@@ -1,0 +1,43 @@
+textarea.notification-body
+{
+    resize: vertical;
+}
+
+.form-group-notification
+{
+    margin-top: 15px;
+}
+
+.notification-type-select-container
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+
+.btn-notification-create
+{
+    margin-left: 15px;
+}
+
+#notification-errors ul li {
+    list-style: none;
+}
+
+.notification-filter-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}

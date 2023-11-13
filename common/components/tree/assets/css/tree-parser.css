@@ -1,0 +1,8 @@
+.node-tree_stage > div {
+    display: inline-block;
+    word-break: break-word;
+}
+
+.node-tree_stage > span {
+    display: inline-block !important;
+}

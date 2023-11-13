@@ -1,0 +1,52 @@
+@media (orientation: landscape) {
+    .spinner-loader {
+        top: 50%;
+        width: 100%;
+        height: 14vw;
+        margin-top: -7vw;
+        position: relative;
+    }
+}
+
+@media (orientation: portrait) {
+    .spinner-loader {
+        top: 50%;
+        width: 100%;
+        height: 14vh;
+        margin-top: -7vh;
+        position: relative;
+    }
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+    position: fixed;
+    transition: 0.5s;
+    overflow-x: hidden;
+    z-index: 1000000000;
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.hidden-behind-loader {
+    display: none !important;
+}
+
+.panel-spinner-loader > .spinner-loader {
+    top: 50%;
+    width: 100%;
+    height: 27vh;
+    margin-top: 0;
+}
+
+.spinner-loader {
+    content: url("../img/loader.svg");
+}
+
+#ege-form .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}

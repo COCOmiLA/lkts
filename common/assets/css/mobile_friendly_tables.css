@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .mobile-friendly {
+        font-size: 12px;
+    }
+
+    .mobile-friendly .kv-grid-wrapper {
+        height: unset !important;
+    }
+
+    .mobile-friendly table thead {
+        display: none;
+    }
+
+    .mobile-friendly table tr {
+        border-bottom: 1px solid;
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .mobile-friendly table tr td {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: unset !important;
+        text-align: unset !important;
+    }
+
+    .mobile-friendly table tr td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}

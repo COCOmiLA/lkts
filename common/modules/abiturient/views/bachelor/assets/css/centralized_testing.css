@@ -1,0 +1,8 @@
+[id^="warning-message-"][id$="-centralized_testing"] {
+    display: none;
+}
+
+.additional_information_for_collapse_label {
+    color: var(--dark);
+    font-size: 0.8em;
+}
